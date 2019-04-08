@@ -2,7 +2,7 @@
 
 APP_NAME=hogwild
 REPO=liabifano
-KUBER_LOGIN=cs449g9
+KUBER_LOGIN=cs449g5
 
 DATA_PATH=/data/datasets
 

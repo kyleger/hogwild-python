@@ -20,10 +20,10 @@ fi;
 
 for port in 50052 50053 50054 50055;
 do
-    source activate hogwild-python && export RUNNING_MODE=$RUNNING_MODE && python src/hogwild/worker.py $port &
+    source activate /anaconda3/envs/hogwild-python && export RUNNING_MODE=$RUNNING_MODE && python src/hogwild/worker.py $port &
 done;
 
-source activate hogwild-python && export RUNNING_MODE=$RUNNING_MODE && python src/hogwild/coordinator.py
+source activate /anaconda3/envs/hogwild-python && export RUNNING_MODE=$RUNNING_MODE && python src/hogwild/coordinator.py
 
 
 pkill -f worker
