@@ -35,3 +35,5 @@ validation_split = 0.1  # Percentage of validation data
 epochs = 1000  # Number of training iterations over subset on each node
 persistence = 15  # Abort if after so many epochs learning rate does not decrease
 lambda_reg = 1e-5  # Regularization parameter
+
+epsilon= 0.01 

@@ -56,7 +56,7 @@ if __name__ == '__main__':
     print('Start message sent to all workers. SGD running...')
 
     # Early stopping
-    early_stopping = EarlyStopping(s.persistence)
+    early_stopping = EarlyStopping(s.persistence, s.epsilon)
     stopping_crit_reached = False
 
     try:
